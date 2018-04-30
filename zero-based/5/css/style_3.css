@@ -1,0 +1,34 @@
+h1{
+    background-color: #666666;
+    color: white;
+    margin: 0;
+    padding: 25px;  
+}
+h2{
+    margin: 0;
+    padding: 50px 20px;
+    background-color: #cccccc;
+    float: left;
+    clear: both;
+}
+h3{
+    margin: 0;
+}
+.chunk h3{
+    display: inline-block;
+}
+.chnk span{
+    display: inline-block;
+}
+.sort div {
+    display: inline-block;
+    margin: 0;
+}
+.sort h3{
+    display: inline-block;
+    margin: auto 5px;
+}
+.sort,.chunk{
+    height: 131px;
+    border-top: #cccccc 1px solid;
+}

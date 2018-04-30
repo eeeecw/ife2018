@@ -1,0 +1,17 @@
+h2{
+    clear: both;
+}
+h3{
+    margin: 0;
+}
+div>div{
+margin-bottom: 18px;
+}
+.sort div {
+    display: inline-block;
+    margin: 0;
+}
+.sort h3{
+    display: inline-block;
+    margin: auto 5px;
+}

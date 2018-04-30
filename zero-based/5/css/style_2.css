@@ -1,0 +1,36 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    float: left;
+    margin: 0;
+    padding: 15px 20px;
+    height: 704px;
+    background-color: #3f8ef9;
+    color: white;
+}
+.container{
+    overflow:hidden;zoom:1;
+}
+.text{
+    float: left;
+    padding-left: 10px;
+}
+h2{
+    clear: both;
+}
+h3{
+    margin: 0;
+}
+div>div{
+margin-bottom: 18px;
+}
+.sort div {
+    display: inline-block;
+    margin: 0;
+}
+.sort h3{
+    display: inline-block;
+    margin: auto 5px;
+}
