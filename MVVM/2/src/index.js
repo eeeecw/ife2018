@@ -1,16 +1,16 @@
-const san = require('san');
-window.onload = function() {
-    var MyApp = san.defineComponent({
-        template: '<p>Hello {{name}}!</p>',
+import san from 'san';
 
-        initData: function() {
-            return {
-                name: 'San'
-            };
-        }
-    });
+const MyApp = san.defineComponent({
+    template: `
+                <div>
+                    <p>Hello {{name}}!</p>
+                </div>
+            `
+});
 
-
-    var myApp = new MyApp();
-    myApp.attach(document.body);
-}
+let myApp = new MyApp({
+    data: {
+        name: 'world'
+    }
+});
+myApp.attach(document.body);
