@@ -12,7 +12,7 @@
         margin: 0;
     }
     body{
-        background-image: url("index.jpg");
+        /* background-image: url("index.png"); */
         background-size: 100%;
     }
     ul{
@@ -20,24 +20,23 @@
     }
     header{
         background-color: #333333;
-        height: 63px;
-        opacity: 0.5;
+        height: 80px;
     }
     .logo{
         height: 63px;
-        line-height: 53px;
+        line-height: 67px;
         float: left;
         color: white;
         margin-left: 15.3%;  
-        font-size: 20px;
+        font-size: 27px;
     }
     li{
         list-style: none;
     }
     nav{
         float: right;
-        margin-right: 13%;
-        font-size: 13px;
+        margin-right: 14%;
+        font-size: 16px;
         padding-top: 5px;
     }
     nav ul li{
@@ -46,24 +45,76 @@
         margin-right: 3px;
     }
     .slide{
-        height: 231px;
+        height: 299px;
         background-color: #66bc32;
-        opacity: 0.5;
+        opacity: 1;
+        position: relative;
+    }
+    .imgnav{
+        position: absolute;
+        right: 13%;
+        bottom: 0;
+        margin: 0 6px 12px 0;
+    }
+    .imgnav ul li{
+        float: left;
+        padding: 5px 7px;
+        background-color: white;
+        border: 1px solid #000;
+        margin: auto 5px;
+    }
+    .imgnav ul .now{
+        height: 33px;
+        position: relative;
+        bottom: 11px;
     }
     .nav{
-        border-bottom: 1px solid black;
-        height: 57px;
+        border-bottom: 1px solid #dddddd;
+        height: 50px;
+        margin-top: 21px;
+    }
+    .nav ul{
+        padding: 0;
+        margin: 0 auto;
+        width: 72%;
+        height: 100%;
+    }
+    .nav ul li{
+        padding: 14px 31px;
+        float: left;
+        border: 1px solid #dddddd;
+        border-radius: 20px 20px 0 0;
+        background-color: #eeeeee;
+    }
+    .nav ul .now{
+        border-bottom: 1px white solid;
+        background-color: white;
+    }
+    .content{
+        width: 72%;
+        margin: 5px auto 0 auto;
     }
     section{
         display: flex;
-        justify-content: center;
+    }
+    .sec1 {
         margin-top: 6px;
     }
-    .sec1 article{
-        width: 241px;
-        height: 135px;
+    article{
+        flex: 1;
         border: 2px #eeeeee solid;
-        margin-right: 5px;
+        padding: 15px;
+        margin: 5px;
+        height: 141px;
+
+    }
+    footer{
+        background-color: #dddddd;
+        height: 91px;
+        text-align: center;
+        color: white;
+        margin-top: 15px;
+        padding: 15px;
     }
 </style>
 <body>
@@ -79,24 +130,43 @@
             </ul>
         </nav>
     </header>
-    <div class="slide"></div>
+    <div class="slide">
+        <div class="imgnav">
+            <ul>
+                <li>1</li>
+                <li class="now">2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </div>
+    </div>
     <div class="nav">
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li class="now">HOME</li>
+            <li>PROFILE</li>
+            <li>ABOUT</li>
         </ul>
     </div>
-    <section class="sec1">
-        <article>This is Content 1</article>
-        <article>MaybeContent 2</article>
-        <article>Content 3</article>
-    </section>
-    <section class="sec2">
-
-    </section>
-    <section class="sec3">
-
-    </section>
+    <div class="content">
+        <section class="sec1">
+            <article>This is Content 1</article>
+            <article>MaybeContent 2</article>
+            <article>Content 3</article>
+        </section>
+        <section class="sec2">
+            <article>Content 4</article>
+            <article>Content 5</article>
+            <article>Content 6</article>
+            <article>Content 7</article>
+        </section>
+        <section class="sec3">
+            <article>Content 8</article>
+            <article>Content 9</article>
+            <article>Content 10</article>
+        </section>
+    </div>
+    <footer>
+        <span>@ 2018 ife.baidu.com</span>
+    </footer>
 </body>
 </html>
