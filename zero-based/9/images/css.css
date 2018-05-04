@@ -1,0 +1,196 @@
+html,body,p,h1,h2,h3{
+    padding: 0;
+    margin: 0;
+}
+.scenes1{
+    /* height: 200px; */
+    background-image: url("1.png");
+    background-size: 100% 100%;
+    height: 61.87rem;
+}
+.scenes2{
+    height: 44.37rem;
+    border-bottom: 1px solid #eee;
+}
+.scenes3{
+    height: 50rem;
+    background-image: url("3.png");
+    background-size: 100% 100%;
+}
+.scenes4{
+    height: 26.25rem;
+    border-bottom: 1px solid #eee;
+}
+.scenes5{
+    height: 62.5rem;
+    border-bottom: 1px solid #eee;
+}
+.scenes6{
+    height: 67.75rem;
+    border-bottom: 1px solid #eee;
+}
+.scenes7{
+    height: 43.75rem;
+}
+.scenes1,.scenes2,.scenes3,.scenes4,.scenes5,.scenes6,.scenes7{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+footer{
+    width: 100%;
+    height: 25.62rem;
+    background-color: #151414;
+}
+.scenes1 h1{
+    color: white;
+    margin-top: 13%;
+    text-align: center;
+    font-size: 3.875rem;
+}
+.scenes1 .des-text{
+    margin-top: 5.5%;
+    text-align: center;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+.mongo{
+    width: 100%;
+    height: 100%;
+    background-color: #141414;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+}
+
+.scenes2 .title{
+    text-align: center;
+    margin-top: 5.625rem;
+}
+
+.scenes2 .title span{
+    font-size: 0.875;
+    margin-bottom: 2.5rem;
+}
+.scenes2 .title p{
+    font-size: 2.625rem;
+}
+.scenes2 .sec{
+    width: 64.31rem;
+    margin: 0 auto;
+}
+.scenes2 .sec2-1,.scenes2 .sec2-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5.25rem;
+}
+.scenes2 article{
+    width: 27.06rem;
+}
+.scenes2 .content{
+    margin-left: 4.25rem;
+}
+.scenes2 .content h3{
+    font-size: 1.25rem;
+    margin-bottom: 1.625rem;
+}
+.scenes2 .content span{
+    color: #bbbbbb;
+    font-size: 1rem;
+}
+.scenes2 .sec img{
+    float: left;
+}
+
+.scenes3 .right{
+    position: absolute;
+    right: 0;
+    top: 6.56rem;
+    padding: 1.875rem 0 1.875rem 3.75rem;
+    border: 1px solid #bbb;
+    border-radius: 2rem 0 0 2rem;
+}
+
+.scenes4 .title{
+    text-align: center;
+    font-size: 2.625rem;
+    margin-top: 6.375rem;
+}
+.scenes4 .sec{
+    width: 59.5rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 5.375rem auto 0;
+}
+.scenes4 article{
+    width: 15.81rem;
+    text-align: center;
+}
+.scenes4 article span{
+    display: block;
+    margin-top: 2.25rem;
+    font-size: 1rem;
+    color: #bbb;
+}
+
+.scenes5 .sec{
+    width: 61rem;
+    margin: 7.18rem auto 0;
+}
+.sec5-1,.sec5-2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec5-2{
+    margin-top: 5rem;
+}
+.sec5-1 .content{
+    padding-left: 6.25rem;
+}
+.sec5-2 .content{
+    padding-right: 6.25rem;
+}
+.scenes5 .content{
+    text-align: center;
+}
+.scenes5 h3{
+    padding-top: 4.875rem;
+    padding-bottom: 2.25rem;
+}
+
+.scenes6 .title{
+    text-align: center;
+    margin-top: 6.25rem;
+}
+.scenes6 .title p{
+    font-size: 2.625rem;
+    margin-bottom: 2.25rem;
+}
+.scenes6 .title span{
+    display: block;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+.scenes6 .sec{
+    width: 60.625rem;
+    margin: 4rem auto 0;
+}
+.sec6-1,.sec6-2{
+    display: flex;
+    justify-content: space-between;
+}
+.sec6-2{
+    margin-top: 1.875rem;
+}
+.scenes6 img{
+    width: 26.37rem;
+}
+
+footer section{
+    width: 72.68rem;
+    margin: 0 auto;
+    padding-top: 5.5rem;
+    display: flex;
+    justify-content: space-between;
+    color: #bbb;
+}
