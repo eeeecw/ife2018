@@ -5,15 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>百度前端学院-基础学院-第9天</title>
+    <script>
+            (function(){
+                var html=document.documentElement;
+                var width=html.getBoundingClientRect().width;
+                console.log(width);
+                html.style.fontSize=width/100+'px';
+            })();
+    </script>
     <link rel="stylesheet" href="./images/css.css">
 </head>
-<script>
-    (function(){
-        var html=document.documentElement;
-        var width=html.getBoundingClientRect().width;
-        html.style.fontSize=width/100+'px';
-    })();
-</script>
+
 <body>
     <div class="scenes1">
         <h1>Hello World</h1>

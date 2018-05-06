@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .outer-container,.content {
+               width: 200px; height: 200px;
+           }
+           .outer-container {
+               position: relative;
+               overflow: hidden;
+           }
+           .inner-container {
+               position: absolute; left: 0;
+               overflow-x: hidden;
+               overflow-y: scroll;
+           }
+           
+            /* for Chrome */
+           .inner-container::-webkit-scrollbar {
+               display: none;
+           }</style>
+</head>
+<body>
+        <style>  
+
+                *{margin: 0;padding: 0;}  
+            
+                #demo li{  
+            
+                    border-bottom: 1px solid #ccc;  
+            
+                }  
+            
+                #demo ul{  
+            
+                    margin-bottom: -1px;  
+            
+                }  
+            
+                #demo{  
+            
+                    overflow: hidden;  
+            
+                }  
+            
+            </style>  
+            
+              
+            
+            <div id="demo">  
+            
+                <ul>  
+            
+                    <li>写个内容其实好困难啊。。。</li>  
+            
+                    <li>写个内容其实好困难啊。。。</li>  
+            
+                    <li>写个内容其实好困难啊。。。</li>  
+            
+                    <li>写个内容其实好困难啊。。。</li>  
+            
+                    <li>写个内容其实好困难啊。。。</li>  
+            
+                </ul>  
+            
+            </div>  
+            
+              
+            
+            <style>  
+            
+                #demo2{  
+            
+                    background: #aaa;  
+            
+                    width:620px;  
+            
+                }  
+            
+                #demo2 ul{  
+            
+                    margin-right: -100px;  
+            
+                    overflow: hidden;  
+            
+                }  
+            
+                #demo2 li{  
+            
+                    float: left;  
+            
+                    margin-right: 10px;  
+            
+                }  
+            
+                .img{  
+            
+                    width: 200px;  
+            
+                    height: 200px;  
+            
+                    background: #ddd;  
+            
+                }  
+            
+              
+            
+            </style>  
+            
+            <div id="demo2">  
+            
+                <ul>  
+            
+                    <li><div class="img"></div></li>  
+            
+                    <li><div class="img"></div></li>  
+            
+                    <li><div class="img"></div></li>  
+            
+                </ul>  
+            
+            </div>  
+</body>
+</html>
