@@ -1,0 +1,40 @@
+*{padding: 0;margin: 0;}
+.nav1{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    background-color: #1d2531;
+}
+.nav1 li{
+    list-style: none;
+    display: block;
+    padding-top:20px;
+    text-align: center;
+}
+.nav1 li a{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+.nav1 .foot{
+    position: absolute;
+    bottom: 20px;
+    padding: 0 15px;
+}
+.nav1 .foot a{
+    padding: 0 8px;
+}
+
+.page{
+    margin-left: 100px;
+}
+
+.nav2{
+    width: 250px;
+    background-color: #222c3c;
+    height: 100%;
+}
+.content{
+    height: 500px;;
+}
