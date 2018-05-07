@@ -151,6 +151,35 @@ html,body{width: 100%; height: 100%; }
 }
 .nav3 .me{
     float: right;
+    padding: 15px 30px 0 0;
+    color: #b5b5b5;
+}
+.nav3 .head{
+    border-radius: 40px;
+    overflow: hidden;
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
+.nav3 .head,.nav3 .name,.nav3 .drop{
+    float: left;
+}
+.nav3 .me .name{
+    padding-top: 3px;
+    margin-right: 8px;
+}
+.nav3 .me .name a,.nav3 .me .name span{
+    display: block;
+}
+.nav3 .me .name a{
+    color: #2399f1;
+    text-decoration: none;
+}
+.nav3 .drop{
+    transform: rotate(270deg);
+    font-size: 26px;
+    height: 26px;
+    padding-right: 22px;
 }
 .m-l-top input{
     margin-left: 30px;
@@ -164,6 +193,45 @@ html,body{width: 100%; height: 100%; }
 .m-l-content li{
     padding: 15px 30px;
     border-bottom: 1px solid #e6e9ec;
+    position: relative;
+}
+.m-l-content .name{
+    margin-left: 20px;
+}
+.m-l-content .name p {
+    color: #b5b5b5;
+}
+.m-l-content .b{
+    position: relative;
+}
+.m-l-content .b span{
+    background-color: #2399f1;
+    position: absolute;
+    top: 9px;
+    right: 0;
+    padding: 2px 8px;
+    border-radius: 13px;
+    color: white;
+}
+.m-l-content li.active::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: #2399f1;
+}
+.m-l-content li.active .name{
+    color: #2399f1;
+}
+.m-l-content li.active .name::before{
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    background-color: #2399f1;
 }
 .h{
     overflow: hidden;
