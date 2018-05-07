@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./images/css.css">
+</head>
+<body>
+    <header>
+        <div class="head" id="head">
+            <img src="./images/head.jpg" alt="">
+        </div>
+        <h1>CV.<small>易_刺猬</small></h1>
+        <h2>新简历还在制作中...</h2>
+        <h2>.</h2>
+        <h2>~</h2>
+    </header>
+    <script>
+        var pegg = document.getElementById("head");
+        var h2 = document.getElementsByTagName("h2");
+        console.log(pegg);
+        pegg.onclick = function() {
+            console.log(h2);
+            h2[0].innerHTML = '喔~~~你很幸运的点中了一个彩蛋！';
+            setTimeout(function(){
+                h2[1].innerHTML = '那就交个朋友吧~~';
+            },1200);
+            setTimeout(function(){
+                h2[2].innerHTML = '我的QQ：1600516512';
+            },2400);
+        }
+    </script>
+</body>
+</html>

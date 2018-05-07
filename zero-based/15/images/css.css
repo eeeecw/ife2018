@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 6rem 0 15rem;
+    /* background-image: url(bg1.png),url(1.svg);
+    background-size: 100% 100%,1600px 230px; */
+    background-image: url(1.svg), url(bg1.png);
+    background-size: 1600px 230px,	cover;
+    background-position: bottom center,	center center;
+    background-repeat: repeat-x, no-repeat;
+    position: relative;
+    text-align: center;
+}
+.head{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -4rem;
+    margin-bottom: -4rem;
+}
+.head img{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+}
