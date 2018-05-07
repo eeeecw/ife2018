@@ -251,6 +251,7 @@ html,body{width: 100%; height: 100%; }
 }
 .m-l-content .name p {
     color: #b5b5b5;
+    font-size: 14px;
 }
 .m-l-content .b{
     position: relative;
@@ -293,9 +294,13 @@ html,body{width: 100%; height: 100%; }
 .m-l-content .time{
     padding-top: 4px;
     float: right;
+    color: #7f8fa4;
+    font-size: 14px;
 }
 .m-l-content p{
-    margin-right: 20px;
+    margin-right: 28px;
+    font-size: 14px;
+    color: #585d68;
 }
 .m-r-top .title{
     float: left;
@@ -343,6 +348,9 @@ html,body{width: 100%; height: 100%; }
     list-style: none;
     position: relative;
 }
+.m-r-content .new{
+    border-bottom: 1px solid #2399f1;
+}
 .m-r-content .head{
     float: left;
 }
@@ -364,4 +372,16 @@ html,body{width: 100%; height: 100%; }
 .m-r-content .time span{
     background-color: white;
     padding: 0 9px;
+}
+.m-r-content .new .time span{
+    background-color: white;
+    padding: 0 9px;
+    color: #2399f1;
+}
+.m-r-content .b .t{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+.m-r-content .b span{
+    font-size: 14px;
 }
