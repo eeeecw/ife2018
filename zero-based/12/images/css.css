@@ -167,6 +167,7 @@ html,body{width: 100%; height: 100%; }
     list-style: none;
     padding-top: 25px;
     color: #b7c0cd;
+    font-size: 14px;
 }
 .nav2 .danger:after{
     content: " ";
