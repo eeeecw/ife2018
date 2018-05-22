@@ -25,3 +25,10 @@
 section{
     text-align: center;
 }
+table{
+    margin: 0 auto 10px;
+}
+td{
+    padding: 3px 5px;
+    border: 1px solid black;
+}
